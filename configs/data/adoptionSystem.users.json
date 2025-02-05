@@ -1,0 +1,80 @@
+[{
+  "_id": {
+    "$oid": "67a21eea1deadd5f8c42ee98"
+  },
+  "name": "mi compañero",
+  "surname": "do santos",
+  "username": "Morejas24589",
+  "email": "morejas214@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$73w7Rh+M6Qbu/ncVbE39zg$V8kBQiT0LD9oiuhHi7E37VN/OQIHYGz9nGR5DlQLKKM",
+  "profilePicture": "",
+  "phone": "55674452",
+  "role": "ADMIN_ROLE",
+  "estado": false,
+  "createdAt": {
+    "$date": "2025-02-04T14:06:34.229Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-04T17:47:37.261Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a21eee1deadd5f8c42ee9c"
+  },
+  "name": "Cano",
+  "surname": "Morejasc",
+  "username": "Morejas2164689",
+  "email": "cano451@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$Dbuh0WmPBFQ7O+3GxrPiMg$wFXzZMxIikskjZM7uifa5rZ61EifDxMDovl9LxTM2is",
+  "profilePicture": null,
+  "phone": "55674141",
+  "role": "USER_ROLE",
+  "estado": false,
+  "createdAt": {
+    "$date": "2025-02-04T14:06:38.593Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-05T22:37:26.833Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a3c58e599b9f073a6b16aa"
+  },
+  "name": "Luis",
+  "surname": "Luis",
+  "username": "Luis",
+  "email": "lpichiya@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$F62pqRQ1yOW69r1BZw0KYw$zvjns9pN35hg8NU+45vwCucS3KByRU/qPqUJuhszEMk",
+  "profilePicture": null,
+  "phone": "12345678",
+  "role": "ADMIN_ROLE",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-05T20:09:50.460Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-05T20:09:50.460Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a3e8c391f41b90e082cb1a"
+  },
+  "name": "Morejon",
+  "surname": "Morejas",
+  "username": "morejo",
+  "email": "morejo@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$RmVHYB6EBmFcc3qGOul8Yw$/D+OpSmAjcdN1mJ8s00Hc9/FJ4JU/T6q2kdpP8fWL7U",
+  "profilePicture": null,
+  "phone": "12345678",
+  "role": "USER_ROLE",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-05T22:40:03.101Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-05T22:40:03.101Z"
+  }
+}]

@@ -1,0 +1,62 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Auth",
+    "collectionId": "271829a8-4ec2-4a11-a2e7-c5842d7ad142",
+    "dateExported": "2025-02-05T22:46:52.732Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "b8dcaf0b-3845-4eb4-a025-16e11c465404",
+            "colId": "271829a8-4ec2-4a11-a2e7-c5842d7ad142",
+            "containerId": "",
+            "name": "http://localhost:3002/adoptionSystem/v1/auth/login",
+            "url": "http://localhost:3002/adoptionSystem/v1/auth/login",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2025-02-05T22:45:58.738Z",
+            "modified": "2025-02-05T22:45:58.738Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"morejo@gmail.com\",\n  \"password\": \"12345678\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "55e62fbe-f297-4298-ad11-9414cc94dc54",
+            "colId": "271829a8-4ec2-4a11-a2e7-c5842d7ad142",
+            "containerId": "",
+            "name": "https://localhost:3002/adoptyonSystem/v1/auth/registrer",
+            "url": "http://localhost:3002/adoptionSystem/v1/auth/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2025-02-05T22:46:27.817Z",
+            "modified": "2025-02-05T22:46:27.817Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"lpichiya@gmail.com\",\n  \"password\": \"12345678\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "0e8dd46c-0bc7-4251-9ea1-2be5a481d7d0",
+            "colId": "271829a8-4ec2-4a11-a2e7-c5842d7ad142",
+            "containerId": "",
+            "name": "http://localhost:3002/adoptionSystem/v1/auth/register",
+            "url": "http://localhost:3002/adoptionSystem/v1/auth/register",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2025-02-05T22:46:36.697Z",
+            "modified": "2025-02-05T22:46:36.697Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Morejon\",\n  \"surname\": \"Morejas\",\n  \"username\": \"morejo\",\n  \"email\": \"morejo@gmail.com\",\n  \"password\": \"12345678\",\n  \"profilePicture\": \"\",\n  \"phone\": \"12345678\",\n  \"role\": \"USER_ROLE\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "eduAirTG2m9xf8xb1zjZuTTvT_fv_d9ac17Oj7XmZ8ARMR1vRY8dOAyiPb-WwTkDNt6Fs6E2qVHFXIKEqZLpLQ"
+}

@@ -1,0 +1,28 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Users",
+    "collectionId": "0df20a23-8797-4cb4-9eed-8c0d74a3fd9d",
+    "dateExported": "2025-02-05T22:47:30.669Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "661297ab-dc12-4c30-9ff6-81df23726ed6",
+            "colId": "0df20a23-8797-4cb4-9eed-8c0d74a3fd9d",
+            "containerId": "",
+            "name": "http://localhost:3020/adoptionSystem/v1/users/67a21eea1deadd5f8c42ee98",
+            "url": "http://localhost:3002/adoptionSystem/v1/users/67a21eee1deadd5f8c42ee9c",
+            "method": "DELETE",
+            "sortNum": 10000,
+            "created": "2025-02-05T22:46:06.690Z",
+            "modified": "2025-02-05T22:46:06.690Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2EzZThjMzkxZjQxYjkwZTA4MmNiMWEiLCJpYXQiOjE3Mzg3OTUyMzAsImV4cCI6MTczODc5ODgzMH0.qgHQxpKI5KhzB97fRwFp0sCaV2WkrGjnH8fewSEEABA"
+                }
+            ]
+        }
+    ],
+    "ref": "B-v8bWMXQZ2bsKDkgQnfzE28yQ0HeEuz-b6JMRh5Kn-kifmMxj_zPkSb39cFB-T6F80G4yi5DYPTJ0Y9QZbBRw"
+}

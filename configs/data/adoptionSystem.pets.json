@@ -1,0 +1,108 @@
+[{
+  "_id": {
+    "$oid": "67a3c88e9bb23b229c1b73c4"
+  },
+  "name": "Portillo",
+  "age": 6,
+  "type": "PENDEJO",
+  "keeper": {
+    "$oid": "67a3c58e599b9f073a6b16aa"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-05T20:22:38.134Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-05T20:22:38.134Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a3cb8fc6393ff8887d21ba"
+  },
+  "name": "adawsda",
+  "age": 6,
+  "type": "PENDEJO",
+  "keeper": {
+    "$oid": "67a3c58e599b9f073a6b16aa"
+  },
+  "status": false,
+  "createdAt": {
+    "$date": "2025-02-05T20:35:27.888Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-05T22:14:05.497Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a3cb98c6393ff8887d21be"
+  },
+  "name": "Yax",
+  "age": 6,
+  "type": "PENDEJO",
+  "keeper": {
+    "$oid": "67a3c58e599b9f073a6b16aa"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-05T20:35:36.876Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-05T20:35:36.876Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a3da1a36649209afa6f082"
+  },
+  "name": "Yax",
+  "age": 6,
+  "type": "PENDEJO",
+  "keeper": {
+    "$oid": "67a3c58e599b9f073a6b16aa"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-05T21:37:30.901Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-05T21:37:30.901Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a3da6736649209afa6f087"
+  },
+  "name": "Yax",
+  "age": 6,
+  "type": "PENDEJO",
+  "keeper": {
+    "$oid": "67a3c58e599b9f073a6b16aa"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-05T21:38:47.590Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-05T21:38:47.590Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a3da8036649209afa6f08b"
+  },
+  "name": "Yax",
+  "age": 6,
+  "type": "PENDEJO",
+  "keeper": {
+    "$oid": "67a3c58e599b9f073a6b16aa"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-05T21:39:12.621Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-05T21:39:12.621Z"
+  }
+}]
