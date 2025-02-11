@@ -1,3 +1,4 @@
+import { response } from 'express';
 import User from '../users/user.model.js';
 import Pet from './pet.model.js'
 
@@ -125,5 +126,27 @@ export const deletePet = async (req, res) => {
             error
         })
     }
+}
 
+export const updatePet = async (req, res = response) => {
+    try {
+
+        const { id } = req.params;
+        const { _id, ...data } = req.body;
+
+        const pet = await Pet.findByIdAndUpdate(id, data, { new: true });
+
+        res.status(200).json({
+            success: true,
+            msg: 'Pet actualizado.',
+            pet
+        })
+        
+    } catch (error) {
+        res.status(500).json({
+            success: false,
+            msg: 'La mascota no se pudo editar.',
+            error
+        })
+    }
 }

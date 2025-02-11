@@ -1,4 +1,4 @@
-import { Schema, model, version } from 'mongoose';
+import { Schema, model } from 'mongoose';
 
 const PetSchema = Schema({
     name: {
@@ -31,5 +31,11 @@ const PetSchema = Schema({
     timestamps: true,
     versionKey: false
 });
+
+PetSchema.methods.toJSON = function(){
+    const { _id, ...pet } = this.toObject();
+    pet.id = _id;
+    return pet;
+}
 
 export default model('Pet', PetSchema);

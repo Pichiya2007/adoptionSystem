@@ -66,7 +66,7 @@ export const updateUser = async (req, res = response) => {
             data.password = await hash(password);
         }
 
-        const user = await User.findByIdAndUpdate(id, data, {new: true});
+        const user = await User.findByIdAndUpdate(id, data, { new: true });
 
         res.status(200).json({
             success: true,
