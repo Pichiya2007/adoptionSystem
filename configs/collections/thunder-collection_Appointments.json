@@ -1,0 +1,33 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Appointments",
+    "collectionId": "9ffa2fb9-53e0-434c-b416-986cc7c9e728",
+    "dateExported": "2025-02-17T22:52:02.507Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "279e35ed-4672-43eb-8bdd-350d0bbc77cd",
+            "colId": "9ffa2fb9-53e0-434c-b416-986cc7c9e728",
+            "containerId": "",
+            "name": "addAppointments",
+            "url": "http://localhost:3002/adoptionSystem/v1/appointments",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2025-02-17T22:37:17.459Z",
+            "modified": "2025-02-17T22:49:32.091Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2EzYzU4ZTU5OWI5ZjA3M2E2YjE2YWEiLCJpYXQiOjE3Mzk4MzE4MDIsImV4cCI6MTczOTgzNTQwMn0.B4dyxYQFPP-sEzFSlGEoOFOJ-Wx2y9d8y2AZU3u0Sek"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"date\": \"2025-02-18T10:00:00Z\",\r\n    \"userId\": \"67a3c58e599b9f073a6b16aa\",\r\n    \"petId\": \"67a3c88e9bb23b229c1b73c4\",\r\n    \"notes\": \"Prueba de agregar cita\"\r\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "Ne6Jgh8_TJT2-I96PMjKHm-6Jg3t0Qr0_y6_d52iIrt8P36bKfYjzOdaZt_1ysAh3kjHk6_trzJQzadAGTIPBg"
+}

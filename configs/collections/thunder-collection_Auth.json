@@ -1,62 +1,57 @@
 {
     "clientName": "Thunder Client",
     "collectionName": "Auth",
-    "collectionId": "271829a8-4ec2-4a11-a2e7-c5842d7ad142",
-    "dateExported": "2025-02-05T22:46:52.732Z",
+    "collectionId": "203cf1f5-f39b-46fd-8eae-f4170c200cd6",
+    "dateExported": "2025-02-17T22:51:29.947Z",
     "version": "1.2",
     "folders": [],
     "requests": [
         {
-            "_id": "b8dcaf0b-3845-4eb4-a025-16e11c465404",
-            "colId": "271829a8-4ec2-4a11-a2e7-c5842d7ad142",
+            "_id": "59d96bd5-c581-43bd-8c47-118a9b8d1aa7",
+            "colId": "203cf1f5-f39b-46fd-8eae-f4170c200cd6",
             "containerId": "",
-            "name": "http://localhost:3002/adoptionSystem/v1/auth/login",
-            "url": "http://localhost:3002/adoptionSystem/v1/auth/login",
-            "method": "POST",
+            "name": "updatePassword",
+            "url": "http://localhost:3002/adoptionSystem/v1/auth/updatepassword",
+            "method": "PUT",
             "sortNum": 10000,
-            "created": "2025-02-05T22:45:58.738Z",
-            "modified": "2025-02-05T22:45:58.738Z",
+            "created": "2025-02-17T20:40:34.309Z",
+            "modified": "2025-02-17T20:49:29.244Z",
             "headers": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"email\": \"morejo@gmail.com\",\n  \"password\": \"12345678\"\n}",
+                "raw": "{\n  \"email\": \"lpichiya@gmail.com\",\n  \"oldPassword\": \"12345678\",\n  \"newPassword\": \"87654321\"\n}",
                 "form": []
             }
         },
         {
-            "_id": "55e62fbe-f297-4298-ad11-9414cc94dc54",
-            "colId": "271829a8-4ec2-4a11-a2e7-c5842d7ad142",
+            "_id": "7bce66c7-cc3b-4b1c-9ca9-8dbdf7caf3a8",
+            "colId": "203cf1f5-f39b-46fd-8eae-f4170c200cd6",
             "containerId": "",
-            "name": "https://localhost:3002/adoptyonSystem/v1/auth/registrer",
+            "name": "Login",
             "url": "http://localhost:3002/adoptionSystem/v1/auth/login",
-            "method": "POST",
-            "sortNum": 20000,
-            "created": "2025-02-05T22:46:27.817Z",
-            "modified": "2025-02-05T22:46:27.817Z",
-            "headers": [],
-            "body": {
-                "type": "json",
-                "raw": "{\n  \"email\": \"lpichiya@gmail.com\",\n  \"password\": \"12345678\"\n}",
-                "form": []
-            }
-        },
-        {
-            "_id": "0e8dd46c-0bc7-4251-9ea1-2be5a481d7d0",
-            "colId": "271829a8-4ec2-4a11-a2e7-c5842d7ad142",
-            "containerId": "",
-            "name": "http://localhost:3002/adoptionSystem/v1/auth/register",
-            "url": "http://localhost:3002/adoptionSystem/v1/auth/register",
             "method": "POST",
             "sortNum": 30000,
-            "created": "2025-02-05T22:46:36.697Z",
-            "modified": "2025-02-05T22:46:36.697Z",
+            "created": "2025-02-17T20:50:07.778Z",
+            "modified": "2025-02-17T20:50:56.174Z",
             "headers": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"name\": \"Morejon\",\n  \"surname\": \"Morejas\",\n  \"username\": \"morejo\",\n  \"email\": \"morejo@gmail.com\",\n  \"password\": \"12345678\",\n  \"profilePicture\": \"\",\n  \"phone\": \"12345678\",\n  \"role\": \"USER_ROLE\"\n}",
+                "raw": "{\n  \"email\": \"lpichiya@gmail.com\",\n  \"password\": \"87654321\"\n}",
                 "form": []
             }
+        },
+        {
+            "_id": "a721e04b-f0e4-401f-b4c3-86b5b5bccfe9",
+            "colId": "203cf1f5-f39b-46fd-8eae-f4170c200cd6",
+            "containerId": "",
+            "name": "getUsers",
+            "url": "http://localhost:3002/adoptionSystem/v1/users",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2025-02-17T22:41:38.267Z",
+            "modified": "2025-02-17T22:41:55.335Z",
+            "headers": []
         }
     ],
-    "ref": "eduAirTG2m9xf8xb1zjZuTTvT_fv_d9ac17Oj7XmZ8ARMR1vRY8dOAyiPb-WwTkDNt6Fs6E2qVHFXIKEqZLpLQ"
+    "ref": "lN-_joHcvJrk5bDHkWjyEFRc9cQXhMzCbbXrh-KBNDtl_9gDRpSXBI5plukvn9IP6hHKg_iFgyovN8wafTe2sA"
 }

@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { check, checkExact } from 'express-validator';
+import { check } from 'express-validator';
 import { getPets, savePet, searchPet, deletePet, updatePet } from './pet.controller.js';
 import { validarCampos } from '../middlewares/validar-campos.js';
 import { validarJWT } from '../middlewares/validar-jwt.js';

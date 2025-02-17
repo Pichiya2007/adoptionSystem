@@ -1,0 +1,66 @@
+[{
+  "_id": {
+    "$oid": "67b3bbab8935675bbdef756a"
+  },
+  "date": {
+    "$date": "2025-02-18T10:00:00.000Z"
+  },
+  "user": {
+    "$oid": "67a3c58e599b9f073a6b16aa"
+  },
+  "pet": {
+    "$oid": "67a3c88e9bb23b229c1b73c4"
+  },
+  "status": "PROGRAMADA",
+  "notes": "Consulta de rutina",
+  "createdAt": {
+    "$date": "2025-02-17T22:43:55.837Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-17T22:43:55.837Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b3bcf12b21e9c8134c1f97"
+  },
+  "date": {
+    "$date": "2025-02-18T10:00:00.000Z"
+  },
+  "user": {
+    "$oid": "67a3c58e599b9f073a6b16aa"
+  },
+  "pet": {
+    "$oid": "67a3c88e9bb23b229c1b73c4"
+  },
+  "status": "PROGRAMADA",
+  "notes": "Consulta de rutina",
+  "createdAt": {
+    "$date": "2025-02-17T22:49:21.731Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-17T22:49:21.731Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b3bcfc2b21e9c8134c1f9c"
+  },
+  "date": {
+    "$date": "2025-02-18T10:00:00.000Z"
+  },
+  "user": {
+    "$oid": "67a3c58e599b9f073a6b16aa"
+  },
+  "pet": {
+    "$oid": "67a3c88e9bb23b229c1b73c4"
+  },
+  "status": "PROGRAMADA",
+  "notes": "Prueba de agregar cita",
+  "createdAt": {
+    "$date": "2025-02-17T22:49:32.087Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-17T22:49:32.087Z"
+  }
+}]

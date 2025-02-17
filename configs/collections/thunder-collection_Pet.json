@@ -1,0 +1,28 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Pet",
+    "collectionId": "ac49555c-e1cd-4ec7-b7f9-ff2a3a574847",
+    "dateExported": "2025-02-17T22:52:14.684Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "71c0aacb-2010-4302-b332-b48d12be95d7",
+            "colId": "ac49555c-e1cd-4ec7-b7f9-ff2a3a574847",
+            "containerId": "",
+            "name": "getPets",
+            "url": "http://localhost:3002/adoptionSystem/v1/pets",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2025-02-17T22:39:01.337Z",
+            "modified": "2025-02-17T22:43:36.277Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"date\": \"2025-02-18T10:00:00Z\",\r\n    \"userId\": \"67a3c58e599b9f073a6b16aa\",\r\n    \"petId\": \"67a3c88e9bb23b229c1b73c4\",\r\n    \"notes\": \"Consulta de rutina\"\r\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "oi-Lql_mFcAVMPh2cpf8dvUl7VtSGmqf7V9CIf8wSsBdQiTO98-pmaTHLZXedoEHTELR92JGFnXxPUlV0bcEEg"
+}
