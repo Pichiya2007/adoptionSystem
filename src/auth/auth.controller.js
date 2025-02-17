@@ -53,8 +53,55 @@ export const login = async (req, res) => {
     }
 }
 
+export const updatePassword = async (req, res) => {
+    
+    const { email, oldPassword, newPassword } = req.body;
+
+    try {
+        // Busca al usuario por su email
+        const user = await Usuario.findOne({ email });
+
+        // Si el usuario no existe, responde con un error 404
+        if (!user) {
+            return res.status(404).json({
+                msg: 'Usuario no encontrado'
+            });
+        }
+
+        // Verifica si la contraseña actual es correcta
+        const validPassword = await verify(user.password, oldPassword);
+        if (!validPassword) {
+            return res.status(400).json({
+                msg: 'La contraseña actual es incorrecta'
+            });
+        }
+
+        // Encripta la nueva contraseña
+        const encryptedPassword = await hash(newPassword);
+        user.password = encryptedPassword;
+
+        // Guarda el usuario con la nueva contraseña
+        await user.save();
+
+        // Responde con un mensaje de éxito
+        return res.status(200).json({
+            msg: 'Contraseña actualizada exitosamente'
+        });
+
+    } catch (error) {
+        console.log(error);
+
+        // Si ocurre un error, responde con un mensaje de error
+        return res.status(500).json({
+            msg: 'Error al actualizar la contraseña',
+            error
+        });
+    }
+};
+
 export const register = async (req, res) => {
     try {
+
         const data = req.body;
 
         let profilePicture = req.file ? req.file.filename : null;
